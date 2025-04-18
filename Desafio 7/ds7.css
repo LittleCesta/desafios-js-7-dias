@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 10px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+
+.botoes{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #c9d3c9;
+}
+
+.botoes:hover {
+    background-color: #859185; /* Cor de fundo mais escura quando passar o mouse */
+    color: white;
+}
+
+#res{
+    margin: 9px;
+    height: 20px;
+    display: flex;
+    padding-top: 6px;
+    border: 3px solid tomato;
+    border-radius: 8px;
+    background-color: tomato;
+    justify-content: center;
+}
+
+.operacoes{
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    background-color: #c9d3c9;   
+}
+
+#encerrar{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: tomato;
+}
+
+#encerrar:hover{
+    background-color: crimson;
+    color: white;
+}
+
+#somar{
+    background-color: rgb(33, 219, 58);
+}
+
+#somar:hover{
+    background-color: rgb(45, 145, 75);
+    color: white;
+}
+
+#subtrair{
+    background-color: aquamarine;
+}
+
+#subtrair:hover{
+    background-color: rgb(110, 187, 187);
+    color: white;
+}
+
+#multiplicar{
+    background-color:rgb(201, 43, 201);
+}
+
+#multiplicar:hover{
+    background-color:darkmagenta;
+    color: white ;
+}
+
+#dividir{
+    background-color: rgb(33, 114, 219);
+}
+
+#dividir:hover{
+    background-color: blue;
+    color: white;
+}
+
+.numeros{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 5px;
+ box-sizing: border-box;
+ margin: 10px;
+}
+
+.numeros button:nth-child(10){
+    grid-column: span 3;
+}
+
+.calculos{
+    margin: 10px;
+}
+
+#invi{
+    border-style: none;
+    background-color: white;
+}
