@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 10px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+
+#botao{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #a6eea9;
+}
+
+#botao:hover {
+    background-color: #45a049; /* Cor de fundo mais escura quando passar o mouse */
+    color: white;
+}
+
+#nome{  
+    padding: 3px;
+    margin: 6px;
+    border-radius: 7px;
+}
+#idade{
+    padding: 3px;
+    margin: 6px;
+    border-radius: 7px;
+}
+
+#res{
+    padding-top: 6px;
+}
